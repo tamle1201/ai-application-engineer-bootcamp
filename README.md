@@ -8,8 +8,8 @@ Lộ trình được chia thành **7 Phase (A đến G)**. Trong đó 4 Phase đ
 
 ## 1. Bức Tranh Tổng Quan (7 Phases)
 
-* **Phase A: Python Programming** (Thời gian học: 1 tuần)
-  * Nắm vững kiến thức Advanced Python Concepts.
+* **Phase A: Python Programming for AI** (Thời gian học: 1 tuần)
+  * Nắm vững Python Programming (Async, Advanced features) và Python Libraries for Data & AI (Numpy, Pandas, Seaborn, Matplotlib).
 * **Phase B: Web Development with Python & FastAPI & ReactJS/NextJS** (Thời gian học: 2 tuần)
   * Nắm vững Internet Basic (OS, Network, HTTP), Database (SQL, No-SQL), Web API Framework (FastAPI, GraphQL, Restful API), Frontend (ReactJS Core, NextJS, Tailwind CSS) và sử dụng framework xây dựng web.
 * **Phase C: Ứng dụng AI trong Phát triển phần mềm** (Thời gian học: 1 tuần)
@@ -40,10 +40,9 @@ ai-application-engineer-roadmap/
 │   └── ...
 ├── learning-path/                     # Các tài liệu tổng hợp định hướng học tập
 ├── docs/                              # Lưu trữ các file tài liệu hướng dẫn
-│   ├── roadmap/                       # Nơi lưu lộ trình chi tiết
+│   ├── roadmap/                       # Nơi lưu lộ trình chi tiết (đã di chuyển vào đây)
 │   └── tai_lieu_khi_trien_khai/       # Tài liệu tham khảo cho Phase G
-├── README.md                          # Hướng dẫn tổng quan (File bạn đang đọc)
-└── roadmap-tong-hop-khoa-luan-20-tuan.md  # File Roadmap chi tiết theo Phase
+└── README.md                          # Hướng dẫn tổng quan (File bạn đang đọc)
 ```
 
 ## 3. Cách Sử Dụng
