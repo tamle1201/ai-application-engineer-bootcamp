@@ -1,60 +1,54 @@
-# Bootcamp AI Application Engineer (16 Tuần Cường Độ Cao)
+# AI Application Engineer Roadmap
 
-Ngày cập nhật: 15/09/2026
-Định dạng: Bootcamp cá nhân 1-kèm-1 (cùng AI Study Buddy).
-Cường độ: **8 - 10 giờ/ngày** (56 - 70 giờ/tuần).
-Mục tiêu: Đào tạo từ một người có nền tảng Software/Data Engineering còn yếu trở thành một **AI Application Engineer** chuẩn Production trong vòng 16 tuần.
+Dự án này chứa lộ trình học tập và phát triển để trở thành một AI Application Engineer, bao gồm từ việc củng cố nền tảng lập trình, xây dựng web, đến tích hợp AI và triển khai hệ thống (DevOps/MLOps).
+
+Lộ trình được chia thành **7 Phase (A đến G)**. Trong đó 4 Phase đầu (6 tuần) tập trung vào việc học kiến thức nền tảng, và 3 Phase sau dành cho việc làm dự án thực tế.
 
 ---
 
-## 1. Triết lý của Bootcamp này
+## 1. Bức Tranh Tổng Quan (7 Phases)
 
-Khác với các lộ trình thong thả 32 tuần, Bootcamp này tận dụng tối đa quỹ thời gian khổng lồ của bạn (8-10h/ngày) để **ép xung** việc học. Tuy nhiên, nguyên tắc bất di bất dịch là: **Không nhảy cóc!**
+* **Phase A: Python Programming** (Thời gian học: 1 tuần)
+  * Nắm vững kiến thức Advanced Python Concepts.
+* **Phase B: Web Development with Python & FastAPI & ReactJS/NextJS** (Thời gian học: 2 tuần)
+  * Nắm vững Internet Basic (OS, Network, HTTP), Database (SQL, No-SQL), Web API Framework (FastAPI, GraphQL, Restful API), Frontend (ReactJS Core, NextJS, Tailwind CSS) và sử dụng framework xây dựng web.
+* **Phase C: Ứng dụng AI trong Phát triển phần mềm** (Thời gian học: 1 tuần)
+  * Tìm hiểu Nền tảng AI (Instruction, Prompt, Context, Memory, Skill, Hook) và Software Development Lifecycle (CICD, Spec Driven Development, Agile Scrum).
+* **Phase D: RAG System & AI Application Architecture** (Thời gian học: 2 tuần)
+  * Đi sâu vào hệ thống RAG (Ingestion, Chunking, Embedding, Indexing, Retrieval), Kiến trúc ứng dụng AI và LLM Architecture.
+* **Phase E: Nghiên cứu làm dự án**
+  * Bước vào giai đoạn áp dụng kiến thức để lên ý tưởng, nghiên cứu khả thi dự án.
+* **Phase F: Xây dựng sản phẩm**
+  * Trực tiếp code, kết nối các phần Frontend, Backend, và RAG/AI Agent thành sản phẩm.
+* **Phase G: Triển khai**
+  * Tìm hiểu và ứng dụng DevOps cơ bản (Docker, Compose, CI/CD, Kubernetes, Observability) và Triển khai LLMOps/MLOps.
 
-Trọng tâm của khóa học này không phải là lao ngay vào gọi API của ChatGPT, mà là dành trọn vẹn 1 tháng đầu tiên (Phase 1) để xây dựng một cái móng bê tông cốt thép về:
-- Lập trình hướng đối tượng (OOP) và Type Hints trong Python.
-- Tư duy Database và truy vấn SQL (PostgreSQL).
-- Kiến trúc API bất đồng bộ (FastAPI) và Background Jobs.
-- Đóng gói ứng dụng (Docker) và ghi log.
+---
 
-Một khi móng đã vững, việc tiếp thu kiến thức về AI (RAG, Agents, LLM Routing) sẽ cực kỳ nhanh và bạn có thể tự tay xây dựng các hệ thống AI chạy ổn định ngoài thực tế (Production-ready).
+## 2. Cấu Trúc Thư Mục Chuẩn (Mô hình Program - Course)
 
-## 2. Cách sử dụng bộ tài liệu này
-
-Do tính chất đặc thù của Bootcamp 16 tuần, bạn có thể **bỏ qua** file lộ trình cũ `03-roadmap-32-tuan.md` (vì nó quá chậm) và `00-ban-do-nang-luc.md`.
-
-Cách học chuẩn:
-1. Đọc kỹ file **`16-tuan-hoc-tap-chi-tiet.md`** để nắm được bức tranh toàn cảnh và mục tiêu của từng tuần.
-2. Tuân thủ **Flow làm việc hàng ngày** (Xem chi tiết ở Mục 4). Mở đúng folder của ngày hôm đó ra để học.
-3. Không tự ý xóa thư mục `assessment/`. Dù hiện tại chúng ta chưa dùng đến, nhưng sau khi hoàn thành 16 tuần, bạn sẽ cần làm 12 bài test trong đó để đánh giá lại năng lực trước khi đi phỏng vấn.
-
-## 3. Cấu trúc thư mục hiện tại
+Dự án này được thiết kế theo cấu trúc sau để đảm bảo lưu trữ kiến thức có hệ thống:
 
 ```text
 ai-application-engineer-roadmap/
-├── README.md                          # (File bạn đang đọc) Hướng dẫn tổng quan
-├── 16-tuan-hoc-tap-chi-tiet.md        # Bức tranh toàn cảnh lộ trình 16 tuần
-├── ke-hoach-hoc-tap/                  # Chứa file kế hoạch chi tiết từng ngày
-├── nhat-ky-hoc-tap/                   # Nơi ghi chú bài học, lưu lại Bug và kinh nghiệm
-├── tai-lieu-hoc-tap/                  # Kho lưu trữ các tài liệu, folder riêng từng ngày
-├── thuc-hanh/                         # Nơi chứa source code bài Lab của từng ngày
-├── assessment/                        # Bộ 12 bài test đánh giá năng lực (Làm ở cuối khóa)
+├── Kien_thuc/                         # Nơi chứa kiến thức theo từng Phase (Phase A, B, C, D)
+│   ├── Phase_A...                     # Bên trong mỗi Phase là các Program học tập
+│   │   ├── course_1...                # Mỗi Program chia thành nhiều Course
+│   │   │   ├── docs/                  # Tài liệu học tập, lý thuyết
+│   │   │   └── VD/                    # Code ví dụ, thực hành theo các Learning Outcomes (CLO)
+│   │   └── running_project/           # Project thực hành gắn liền với Phase đó
+│   └── ...
+├── learning-path/                     # Các tài liệu tổng hợp định hướng học tập
+├── docs/                              # Lưu trữ các file tài liệu hướng dẫn
+│   ├── roadmap/                       # Nơi lưu lộ trình chi tiết
+│   └── tai_lieu_khi_trien_khai/       # Tài liệu tham khảo cho Phase G
+├── README.md                          # Hướng dẫn tổng quan (File bạn đang đọc)
+└── roadmap-tong-hop-khoa-luan-20-tuan.md  # File Roadmap chi tiết theo Phase
 ```
 
-## 4. Flow làm việc hàng ngày (Daily Workflow)
+## 3. Cách Sử Dụng
 
-Đây là kỷ luật sống còn để duy trì cường độ 10 tiếng/ngày mà không bị kiệt sức. Bạn sẽ có một **AI Study Buddy** đồng hành xuyên suốt:
-
-- **🌞 Sáng (Nhận nhiệm vụ & Nạp lý thuyết):** Mở file kế hoạch trong thư mục `ke-hoach-hoc-tap/`. Đọc tài liệu (Docs chính hãng). Mọi khái niệm kỹ thuật khó hiểu phải yêu cầu AI giải thích ngay lập tức. Gom nhặt link hay vào `tai-lieu-hoc-tap/`.
-- **🌤️ Chiều (Code Lab & Giải quyết Bug):** Bắt tay vào gõ code. Code bằng tay, không copy-paste vô tội vạ. Khi gặp bug đỏ màn hình, copy log lỗi gửi cho AI để cùng phân tích nguyên nhân và tìm cách sửa (Pair-programming).
-- **🌙 Tối (Review & Đóng gói):** 
-  1. Gọi AI để báo cáo tổng kết ngày.
-  2. Điền những kiến thức cốt lõi vào file `nhat-ky-hoc-tap/`.
-  3. AI sẽ tự động sinh ra Kế hoạch học tập, Nhật ký rỗng và file Tài liệu cho ngày hôm sau dựa trên tiến độ thực tế của bạn.
-- **🏁 Cuối khóa (Tuần 16):** Mở thư mục `assessment/` để AI đóng vai Giám khảo phỏng vấn (Mock Interview).
-
-## 5. Quy tắc thép của Bootcamp
-
-1. **Code every day:** Phải có code, có bug và sửa được bug mỗi ngày. Nếu một ngày chỉ ngồi xem video/đọc docs mà không gõ phím, ngày đó coi như bỏ đi.
-2. **Nói KHÔNG với Framework ở giai đoạn đầu:** Bạn phải tự viết Agent loop bằng vòng lặp `while`, tự code RAG bằng cách chẻ chuỗi và tính Cosine Similarity, trước khi được phép dùng LangGraph hay LlamaIndex. Hiểu bản chất quan trọng hơn gọi thư viện.
-3. **Debug là học:** Thời gian kẹt lại ở một cái Bug chính là lúc tư duy kỹ sư của bạn đang phát triển. Đừng nản chí!
+1. Đọc file `roadmap-tong-hop-khoa-luan-20-tuan.md` để nắm rõ mục tiêu chi tiết của từng Course trong các Phase.
+2. Với mỗi tuần học, đi vào thư mục `Kien_thuc/` tương ứng, đọc tài liệu trong `docs/`, chạy thử code trong `VD/`.
+3. Khi hoàn thành lý thuyết một Phase, bắt tay vào làm `running_project/` của Phase đó.
+4. Sau khi kết thúc 4 Phase đầu (6 tuần), bắt tay vào Phase E, F, G để làm và đưa dự án thực tế lên môi trường Production.
