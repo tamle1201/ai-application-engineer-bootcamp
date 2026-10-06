@@ -12,8 +12,8 @@ Cấu trúc phần "Kiến thức" trong mỗi Phase học được tổ chức 
 * **Mục tiêu (Note):** Học kỹ nền tảng, giải thích được bằng code và giải thích được code AI tạo ra. Hoàn thành 1 milestone trong running project.
 
 * **Course 1: Python Programming**
-  * **Unit/Docs:** Async, Advanced features.
-  * **Course Learning Outcome:** Nắm vững tính năng nâng cao của Python.
+  * **Unit/Docs:** Async, Advanced features, Pydantic, Virtual Env, Dotenv.
+  * **Course Learning Outcome:** Nắm vững tính năng nâng cao của Python và tiêu chuẩn dự án thực tế.
 * **Course 2: Python Libraries for Data & AI**
   * **Unit/Docs:** Numpy, Pandas, Seaborn, Matplotlib.
   * **Course Learning Outcome:** Làm chủ các thư viện xử lý dữ liệu.
